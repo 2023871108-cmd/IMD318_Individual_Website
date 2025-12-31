@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Here</title>
+
+	<style>
+		body 
+		{
+			background-image: url(images/darkbeigebg.jpg);
+		}
+		h2 
+		{
+			font-family: Helvetica;
+			font-size: 30px;
+			color: black;
+			text-align: center;
+			background-color: lightyellow;
+		}
+		.center 
+		{
+			display: block;
+  			margin-left: auto;
+ 			margin-right: auto;
+  			width: 30%;
+		}
+		p 
+		{
+			color: snow;
+			font-size: 20px;
+			font-family: Helvetica;
+			text-align: center;
+		}
+		/* ================= NAVBAR ================= */
+		.navbar a:link, a:visited
+		{
+			color: antiquewhite;
+			background-color: darkslategrey;
+			text-decoration: none;
+			text-align: center;
+			padding: 20px;
+			margin: 3px;
+			border-radius:60px;
+		}
+
+		.navbar a:hover, a:active
+		{
+			color: maroon;
+			background-color: khaki;
+		}
+		.navbar 
+		{
+  			display: flex;
+  			justify-content: center;   
+  			padding: 1px 0;
+  		}
+	</style>
+</head>
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar">
+		<a href="index.html" target="_self">Home Page</a> 
+		<a href="aboutme.html" target="_self">Biodata</a> 
+		<a href="education.html" target="_self">Education</a> 
+	    <a href="skills.html" target="_self">Skills & Experience</a> 
+	    <a href="family.html" target="_self">Family</a> 
+		<a href="gallery.html" target="_self"> Gallery</a> 
+		<a href="contact.html" target="_blank"><ins>Contact</ins></a>
+	</nav>
+
+	<h2>Contact me on <i>WhatsApp</i> for details</h2>
+	<img src="images/contactqr.png" alt="contact qr" class="center" style="width: 450px; height: 450px;">
+
+	<p id="content1">Aisya Sofea Binti Rosmadi <br> Call me for further questions: <br>+60 189474181<br></p>
+	<button type="button" class="center" onclick='document.getElementById("content1").innerHTML="Email me: 2023871108@student.uitm.edu.my"'>Click here for another option</button>
+
+</body>
+</html>

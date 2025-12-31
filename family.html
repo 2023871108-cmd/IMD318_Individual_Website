@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Family Pages</title>
+
+	<style>
+		body 
+		{
+			background-image: url(images/bgwebsitehitam.jpg);
+		}
+		h1
+		{
+			color: lightyellow;
+			font-family: Helvetica;
+		}
+		h2 
+		{
+			font-family: Arial;
+			font-size: 30px;
+			color: darkslategrey;
+			text-align: center;
+			background-color: lightyellow;
+		}
+		h3 
+		{
+			color:lightyellow;
+			font-family: Helvetica;
+			font-size: 30px;
+			text-align: center;
+			border: 2px dashed ivory;	
+		}
+		h4 
+		{
+			font-size: 35px; 
+			color: powderblue;
+			font-family: Arial;
+		}
+		p 
+		{
+			color: darkslategrey;
+			font-family: Arial;
+			font-size: 20px;
+			text-align: justify;
+
+		}
+		.center 
+		{
+			display: block;
+  			margin-left: auto;
+ 			margin-right: auto;
+  			width: 100%;
+		}
+
+		/* ================= NAVBAR ================= */
+
+		.navbar a:link, a:visited
+		{
+			color: antiquewhite;
+			background-color: darkslategrey;
+			text-decoration: none;
+			text-align: center;
+			padding: 20px;
+			margin: 3px;
+			border-radius:60px;
+		}
+
+		.navbar a:hover, a:active
+		{
+			color: maroon;
+			background-color: khaki;
+		}
+		.navbar 
+		{
+  			display: flex;
+  			justify-content: center;   
+  			padding: 1px 0;
+  		}
+
+  		/* Three image containers (use 25% for four, and 50% for two, etc) */
+		.column 
+		{
+ 			 float: left;
+ 			 width: 33.33%;
+			 padding: 5px;
+		}
+
+		/* Clear floats after image containers */
+		.row::after 
+		{
+			 content: "";
+			 clear: both;
+			 display: table;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar">
+		<a href="index.html" target="_self">Home Page</a> 
+		<a href="aboutme.html" target="_self">Biodata</a> 
+		<a href="education.html" target="_self">Education</a> 
+	    <a href="skills.html" target="_self">Skills & Experience</a> 
+	    <a href="family.html" target="_self">Family</a> 
+		<a href="gallery.html" target="_self"> Gallery</a> 
+		<a href="contact.html" target="_blank"><ins>Contact</ins></a>
+	</nav>
+
+	<h2>.𖥔 ݁ ˖   ✦    ‧₊˚ ⋅ My Family .𖥔 ݁ ˖   ✦    ‧₊˚ ⋅</h2>
+
+	<img src="images/familyphotocard.png" alt="Family photo card header" style="width: 1505px; height: 350px;">
+
+	<h1 style="font-size: 60px; text-align: left; letter-spacing: 3px;"><img src="images/familypic.png" alt="Family picture" style="float: right; height: 300px; width: 300px;">Introducing<br><i>My Family Members</i></h1>
+
+	<p style="font-family: monospace; font-size: 25px; text-align: left; color: floralwhite;">My family has always been a big part of who I am. They support me in many ways and help me stay motivated in both my studies and daily life. For me, the best thing about memories is making them with my and only one family. <q>In the end, family is all that matters.</q></p>
+
+	<video width="1505" height="300" autoplay controls>
+		<source src="video/videofamily.mp4" type="video/mp4">
+			Your browser does not support video element
+	</video>
+
+
+	<h4 style="text-align: left; letter-spacing: 3px;"><img src="images/familymeaning.png" alt="Family Meaning" style="float: left; height: 350px; width: 350px;"><i>What does <ins>Family</ins> means ?</i></h4>
+	<p style="font-size: 27px; color: ivory; text-align: justify;"><cite>Family, a group of persons united by the ties of marriage, blood, or adoption, constituting a single household and interacting with each other in their respective social positions, usually those of spouses, parents, children, and siblings. The family group should be distinguished from a household, which may include boarders and roomers sharing a common residence. It should also be differentiated from a kindred (which also concerns blood lines), because a kindred may be divided into several households. Frequently the family is not differentiated from the marriage pair, but the essence of the family group is the parent-child relationship, which may be absent from many marriage pairs.</cite> by Barnard John. Edited on 25 December 2025 on Britannica.</p> 
+	
+	<img src="images/familyphotoscrap.png" alt="Family photo scrap" style="width: 1405px; height: 350px;">
+	
+	<h3> ──────୨ৎ──── My Parents ──────୨ৎ────</h3>
+
+	
+
+	<script>
+		function Parent(a)
+		{
+			var pic;
+			if (a==2)
+			{
+				pic="images/fatherphoto.png"
+			}
+			else
+			{
+				pic="images/motherrphoto.png"
+			}
+			document.getElementById('Parent1').src=pic;
+		}
+	</script>
+
+
+	<img src="images/fatherphoto.png" class="center" width="1000" height="380" id="Parent1">
+	<p>
+		<button type="button" class="center" onclick="Parent(2)">Father</button>
+		<button type="button" class="center" onclick="Parent(1)">Mother</button>
+
+	</p>
+
+	<p style="text-align: center; background-image: url(images/gridbeigebg.jpg)"><b>My father's name is <ins>Rosmadi bin Mohamed</ins>. He works as a Manager in a government office. My father is very chill and such an outgoing person to be with. Meanwhile, my mother's name is <ins>Amalina binti Yusuf</ins> and she works as an Administrative Assistant in a government office too. Honestly, my mom is a little bit hot-headed butt she is very caring and willing to spend her money for me. My parents are the ones that loved me no matter what, looked after me when I were little, and raised me. Repaying them for all the care and affection they showed me is the moral thing to do. </b></p>
+
+	<h3>──────୨ৎ──── My Siblings ──────୨ৎ────</h3>
+
+	<script>
+		function Sibling(a)
+		{
+			var pic;
+			if (a==2)
+			{
+				pic="images/sisterphoto.png"
+			}
+			else
+			{
+				pic="images/brotherphoto.png"
+			}
+			document.getElementById('Sibling1').src=pic;
+		}
+	</script>
+
+
+	<img src="images/sisterphoto.png" class="center" width="1000" height="380" id="Sibling1">
+	<p>
+		<button type="button" class="center" onclick="Sibling(2)">Older Sister</button>
+		<button type="button" class="center" onclick="Sibling(1)">Little Brother</button>
+
+	</p>
+
+	
+
+	<p style=" text-align: center; background-image: url(images/gridbeigebg.jpg)"><b>This is my siblings, my little brother <ins>Aqiff Hariz</ins> who are still student and my older sister, <ins>Allya Marissa</ins> who are currently doing her internships. Even though we always yell at each other and fight, we still need one another. Our relationship is full of love and hate, but that is what makes us family. No matter how much we argue, we will always care and stand by each other. They know my strengths, my weaknesses, and my true self. Having them in my life makes me feel supported, understood, and never alone.<b></p>
+
+
+	
+
+</body>
+</html>
